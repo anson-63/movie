@@ -31,7 +31,7 @@ function returnMovie(url){
             
             const center= document.createElement('center');
 
-            title.innerHTML=`${element.title}`;
+            title.innerHTML=`${element.titles}`;
             image.src=IMG_PATH+element.poster_path;
 
             center.appendChild(image);
